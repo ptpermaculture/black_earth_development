@@ -87,10 +87,10 @@ USE_SOUTH = True
 ########################
 
 EMAIL_HOST_USER = 'harrybw'
- EMAIL_USE_TLS = True 
- EMAIL_HOST = 'mail.iinet.net.au'
- EMAIL_HOST_PASSWORD = 'Gbuckley1'
- EMAIL_PORT = 587
+EMAIL_USE_TLS = True 
+EMAIL_HOST = 'mail.iinet.net.au'
+EMAIL_HOST_PASSWORD = 'Gbuckley1'
+EMAIL_PORT = 587
 
 # People who get code error notifications.
 # In the format (('Full Name', 'email@example.com'),
