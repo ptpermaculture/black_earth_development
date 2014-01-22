@@ -4,6 +4,8 @@ from __future__ import absolute_import, unicode_literals
 # MEZZANINE SETTINGS #
 ######################
 
+
+
 # The following settings are already defined with default values in
 # the ``defaults.py`` module within each of Mezzanine's apps, but are
 # common enough to be put here, commented out, for convenient
@@ -83,6 +85,12 @@ USE_SOUTH = True
 ########################
 # MAIN DJANGO SETTINGS #
 ########################
+
+EMAIL_HOST_USER = 'harrybw'
+ EMAIL_USE_TLS = True 
+ EMAIL_HOST = 'mail.iinet.net.au'
+ EMAIL_HOST_PASSWORD = 'Gbuckley1'
+ EMAIL_PORT = 587
 
 # People who get code error notifications.
 # In the format (('Full Name', 'email@example.com'),
